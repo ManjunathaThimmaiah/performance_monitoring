@@ -24,7 +24,7 @@ Follow these steps to set up the script in your environment:
 1. **Clone the Repository**:
    Open your terminal and run:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/ManjunathaThimmaiah/performance_monitoring.git
    cd path-to-cloned-repo
    ```
 
