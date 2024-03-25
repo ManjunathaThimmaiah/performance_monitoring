@@ -25,7 +25,7 @@ Follow these steps to set up the script in your environment:
    Open your terminal and run:
    ```sh
    git clone https://github.com/ManjunathaThimmaiah/performance_monitoring.git
-   cd path-to-cloned-repo
+   cd performance_monitoring
    ```
 
 2. **Create and Activate a Python Virtual Environment** (recommended):
