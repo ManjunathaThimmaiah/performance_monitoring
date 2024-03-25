@@ -45,12 +45,17 @@ Follow these steps to set up the script in your environment:
 
 ## Usage
 
-To execute the script, use the following command format in your terminal, replacing placeholders with actual values:
+To execute the script, use the following command format in your terminal:
 ```sh
-python monitor_script.py /path/to/your/snapshot_file.snapshot
+python3 qdrant_monitor.py /path/to/your/snapshot_file.snapshot
+
+or
+
+python3 monitor_entire_system.py /path/to/your/snapshot_file.snapshot --pre_post_monitor_duration 20
 ```
-- `monitor_script.py` should be replaced with the actual script filename.
+- `monitor_entire_system.py.py`
 - `/path/to/your/snapshot_file.snapshot` should be the full path to the snapshot file you wish to upload.
+- `pre_post_monitor_duration` duration in seconds and used to monitor resource usage before the load and after the load, by default it is 10 seconds
 
 ## Operational Flow
 
